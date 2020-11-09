@@ -1,0 +1,13 @@
+name: shiny_final
+title: shiny_final
+username:
+account: bhatkishan42
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3192823
+bundleId: 3837021
+url: https://bhatkishan42.shinyapps.io/shiny_final/
+when: 1604916105.62502
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: wd.html|wd.Rmd
