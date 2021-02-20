@@ -1,0 +1,25 @@
+# %% [markdown]
+# # Business Analysis with EDA & Statistics
+
+# %% [markdown]
+# ### This project is documented using markdown and then uploaded on git hub
+# ### Data-set for this project is taken from kaggle datasets
+
+# %% [markdown]
+# *  let's load that initial required libraries
+
+# %% [code]
+import numpy as np 
+import pandas as pd 
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+import os
+for dirname, _, filenames in os.walk('../input/marketing-data/marketing_data.csv'):
+    for filename in filenames:
+        print(os.path.join(dirname, filename))
+
+
+# %% [markdown]
+# lets look into data first we'll read a file and get a gist of how data is presented
+# ### Reading data
